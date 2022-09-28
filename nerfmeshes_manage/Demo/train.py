@@ -13,7 +13,7 @@ from pytorch_lightning.core.memory import ModelSummary
 import models
 from lightning_modules import LoggerCallback, PathParser
 
-from nerf_to_mesh.Method.nerfmeshes.colmap_convert import gen_poses
+from nerfmeshes_manage.Method.colmap_convert import gen_poses
 
 
 def demo():
